@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="AutoImposto.Home.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <asp:LinkButton Text="Logout" OnClick="Logout_Click" runat="server" /></div>
+            <hr />
+            <asp:ContentPlaceHolder ID="HomeContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
