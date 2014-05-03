@@ -7,6 +7,7 @@ namespace AutoImposto.Usuarios
 {
     public class Usuario
     { 
+        //public int teste
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
