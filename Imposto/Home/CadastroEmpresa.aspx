@@ -15,6 +15,7 @@
     </div>
     <div><%= this.mensagem %></div>
     <div>
+        teste
         <asp:HyperLink NavigateUrl="~/Home/Home.aspx" Text="Voltar" runat="server" />
     </div>
 </asp:Content>
